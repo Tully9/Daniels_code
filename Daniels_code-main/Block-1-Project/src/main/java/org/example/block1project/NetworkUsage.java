@@ -85,10 +85,6 @@ public class NetworkUsage {
         return scrollableNetworkInfo;
     }
 
-    // stop timer
-    public void stopMonitoring() {
-        if (timer != null) {
-            timer.cancel();
-        }
+
     }
-}
+
